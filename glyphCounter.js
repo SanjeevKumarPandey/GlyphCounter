@@ -31,11 +31,14 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-var sec = 0;
-var el = document.getElementById('seconds-counter');
-
+var sec = 0, el = document.getElementById('seconds-counter');
+/**
+ * @function incSec
+ * @param {number} sec starts with `0` and `increases by 1`.
+ * @implements `innerText` of DOM element `el` i.e. counter UI.
+ */
 incSec =()=>{
-    sec += 1;
+    sec++;
     el.innerText = sec;
 }
 
