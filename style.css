@@ -1,0 +1,26 @@
+body {
+    background-color: #1a1c24; color: #fff;
+    font: 14 px "Century Gothic", Futura, sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin-top: 5%;
+}
+
+#seconds-counter {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 66px;
+    font-weight: bold;
+    color: (0, 0, 0, .25);
+    letter-spacing: -.25em;
+    opacity: 0.3;
+}
+
+#counter-parent {
+    position: absolute;
+    z-index: 100;
+    bottom: calc(50% - 30px); left: calc(55% - 150px);
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
